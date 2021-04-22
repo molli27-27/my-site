@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Шапка сайта</title>
+  <style>
+  body {
+background-image: url("444.PNG"); 
+}
+  </style>
+ </head>
+ <body>
+<a href="o nas.html" style="font-family:system-ui;color:white;font-size:40px">О нас</a> <br> <br>
+<a href="prais.html" style="font-family:system-ui;color:white;font-size:40px">Наши услуги и прайс</a> <br>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Отзывы</title>
+  <style>
+   body {
+background-image: url("999.JPG"); 
+}
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; } 
+  70% { opacity: 0; }
+  margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.fadein { display: block;
+  margin: 0 auto; position:relative; width:45%;}
+.fadein img {  display: block;
+  margin: 0 auto;position:absolute; width:100%; left:0; right:100%; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite;  height: 400px;}
+.fadein img:nth-child(1) {  display: block;
+  margin: 0 auto;animation-delay: 0s;  }
+.fadein img:nth-child(2) { display: block;
+  margin: 0 auto; animation-delay: 3s;  }
+.fadein img:nth-child(3) {  display: block;
+  margin: 0 auto;animation-delay: 6s;  }
+
+  </style>
+ </head>
+ <body> <br> <br>
+ <p align=center> <font face="IMPACT" size="6">ОТЗЫВЫ О НАШЕМ САЛОНЕ</font> </p> <br> <br><br> <br><br> <br>
+ <div class="fadein">
+  <img src="отзыв1.JPG">
+  <img src="отзыв2.JPG">
+  <img src="отзыв3.JPG">
+  <img src="отзыв4.JPG"> 
+</div>
+
+ </body>
+</html>
